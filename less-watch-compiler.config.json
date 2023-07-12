@@ -1,0 +1,9 @@
+{
+  "watchFolder": "less",
+  "outputFolder": "assets",
+  "mainFile": "main.less",
+  "includeHidden": true,
+  "sourceMap": true,
+  "include-hidden": false,
+  "minified": true
+}
