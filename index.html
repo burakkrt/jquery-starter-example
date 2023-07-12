@@ -6,12 +6,15 @@
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Jquery Starter Example</title>
-    <link href="assets/main.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
-    <div>
-
+    <h1 class="title">JQuery Starter Example</h1>
+    <div class="filters">
+        <button class="btn" id="xiaomi">Select Xiaomi</button>
+        <button class="btn" id="lastRemove">Delete last element</button>
+        <button class="btn" id="addItems">Add List Item</button>
     </div>
     <ul id="list">
         <li class="list-item">Apple</li>
@@ -23,16 +26,7 @@
 </div>
 
 
-<script src="assets/jquery.min.js" type="text/javascript"></script>
-<script src="assets/script.js" type="text/javascript"></script>
-<script>
-    $(function () {
-        let result;
-        let element = $("#list")
-
-        result = element.children(":first").siblings()
-        console.log(result)
-    })
-</script>
+<script src="jquery.min.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script>
 </body>
 </html>
