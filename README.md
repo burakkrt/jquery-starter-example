@@ -2,6 +2,8 @@
 
 Simple event events and syntax exercises with an introduction to jquery.
 
+- [**GoLive**](https://burakkrt.github.io/jquery-starter-example)
+
 ## Methods used
 
 - [**css**](https://devdocs.io/jquery/css)
